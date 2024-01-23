@@ -1,0 +1,141 @@
+*{box-sizing: border-box;
+padding: 0%;
+margin: 0%;}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header{
+    background-color: black;
+    padding: 16px 0 ;
+    color: #fff;
+}
+header li{
+    display: inline;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-left: 16px;
+}
+
+    header li a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+.container{
+    width:1366px;
+    margin: 0 auto;}
+
+    .articles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+
+    .articles article img{
+        width: 100%;
+    }
+
+    .articles article{
+    width: 30%;
+    }
+
+    section{
+        padding: 16px 0 ;
+    }
+
+    section h2,
+    .articles article{
+        margin-bottom: 16px;
+    }
+
+    .articles article h3{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .articles article a{
+        background-color: rgb(0, 255, 64);
+        color: #fff;
+        padding: 6px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
+    .articles article p, .articles article a {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .articles article h3 {
+        font-size: 24px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    #esportes {
+        background-color: rgba(0, 255, 0, 0.10)
+    }
+
+    #esportes .articles article a {
+        background-color:rgba(0, 255, 0, 0.8)
+        color(srgb red green blue)
+    }
+
+    #economia{
+        background-color: rgb(255, 240, 154);
+    }
+
+    #economia .articles article a {
+        background-color: gold;
+    }
+
+    #saude {
+        background-color: rgb(174, 235, 174);
+    }
+
+    #saude article a {
+background-color: blue;
+color: #fff;
+display: inline-block;
+text-decoration: none;
+margin-top: 8px;
+padding: 6px;
+font-weight: bolder;
+    }
+
+    #educacao {
+        background-color: rgb(165, 224, 224);
+    }
+
+#educacao article a {
+    background-color: rgb(3, 3, 53);
+color: #fff;
+display: inline-block;
+text-decoration: none;
+margin-top: 8px;
+padding: 6px;
+font-weight: bolder;
+}
+
+#educacao article p {
+    box-sizing: border-box;
+}
+
+#saude article {
+    display: inline;
+}
+
+.titulo h2 {
+    margin-bottom: 16px;
+}
+
+.titulo h2{
+    font-size: 32px;
+}
